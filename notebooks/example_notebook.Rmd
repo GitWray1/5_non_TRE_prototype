@@ -1,0 +1,174 @@
+---
+title: "Breast cancer - Triple diagnostic assessment"
+author: "Automation prototype"
+date: "20/09/2022"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+```{r rmd-setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+```{r setup, include = FALSE}
+# Load in files
+
+# Load relevant packages
+library(dplyr)
+library(lubridate)
+library(plotly)
+
+```
+
+## Background
+
+For the purpose of this initial measurement framework prototype work we focus on audit data measuring one recommendation or quality statement to track uptake data and/or regional variation over time.
+
+**Relevant quality statement**  
+QS12 Statement 1 - People with suspected breast cancer referred to specialist services are offered the triple diagnostic assessment in a single hospital visit.
+
+**Rationale for statement**  
+Early diagnosis of breast cancer allows for prompt treatment, which results in better health outcomes for people with breast cancer. Giving people with suspected breast cancer the triple diagnostic assessment at a single hospital visit will help to ensure rapid diagnosis. It will also help to reduce the anxiety and stress associated with multiple visits for different parts of the triple diagnostic assessment.
+
+**What is a triple diagnostic assessment**  
+A triple diagnostic assessment comprises of the following three elements:
+
+- Clinical assessment
+- Imaging - A mammogram and/or an ultrasound scan
+- Biopsy - a tissue biopsy may be taken from the breast for histological examination by fine-needle aspiration or core biopsy 
+
+## Methods
+
+**What is being measured?**  
+The proportion of patients who received a triple diagnostic assessment within a single visit.
+
+To determine whether a triple diagnostic assessment was received in a single visit, the following conditions have to be met:
+
+- patient has a reported date of biopsy or cytology
+- patient has a matching date of mammogram
+- OR patient has no date for mammogram, but has a matching first seen date reported
+
+**Numerator**: Women receiving triple diagnostic assessment in a single visit.  
+**Denominator**: Women with non-screen detected early invasive breast cancer. 
+
+**Exclusions**  
+Women who were diagnosed with early invasive breast cancer during routine breast screening were excluded. This is because of established screening protocols where those with mammographic abnormalities are recalled for assessment and further imaging/biopsies, and thus would not have all tests done in the same visit. 
+
+**Data Source**  
+[National audit of breast cancer in older patients](https://www.nabcop.org.uk/reports/?filter_date=2022) (NABCOP). This audit uses data that has been provided by patients and collected by the NHS as part of their care and support. The data are collated, maintained and quality assured by the National Disease Registration Service (NDRS), which is part of NHS Digital (NHSD).
+
+Data on triple diagnostic assessment is derived from the Cancer Outcomes and Services Dataset (COSD), a monthly data collection from service providers where items are submitted to the National Cancer Data Repository (NCDR via multidisciplinary team electronic data collection systems.
+
+Please refer to the [NABCOP Annual Report Methodology 2022](https://www.nabcop.org.uk/resources/nabcop-2022-annual-report-supplementary-materials/) for full details of how data was collected and processed. 
+
+## Results
+
+### National level
+
+Among women aged 50 years and over diagnosed with non-screen detected EIBC in 2019, 69% were calculated to have received triple diagnostic assessment (TDA) in a single visit. There was little variation from previous audit years, and between age groups. 
+
+```{r national}
+
+df_nat <- readr::read_csv(here::here("data/NABCOP_audit_data_national.csv"),
+                          col_types = "ccnn") %>%
+          mutate(across(c(1, 2), ~lubridate::make_date(as.numeric(.x, 1, 1))))
+
+chart_title <- "<b>Percentage of women with non-screen detected early invasive breast cancer
+                that received a triple diagnostic assessment in a single visit in England, 
+                by year of diagnosis and age at diagnosis</b>"
+
+df_nat %>% 
+  plot_ly(x = ~diagnosis_year) %>% 
+  add_lines(y = ~tda_perc_50_69,
+            name = "50-69yrs",
+            mode = "lines+markers",
+            color = I("#228096"),
+            marker = list(color = "#228096",
+                          size = 8)) %>% 
+  add_lines(y = ~tda_perc_70_plus,
+            name = "70+yrs",
+            color = I("#407291"),
+            mode = "lines+markers",
+            marker = list(color = "#00436C",
+                          size = 8)) %>%
+  layout(title = list(text = stringr::str_wrap(chart_title, width = 95),
+                      font = list(size = 12),
+                      x = 0.05,
+                      y = 0.96,
+                      yanchor = "top"),
+         yaxis = list(title = "Percentage of women (%)",
+                      ticksuffix = "%",
+                      range = list(0,100)),
+         xaxis = list(title = list(text = "Year of diagnosis",
+                                   font = list(size=12),
+                                   standoff = 10),
+                      ticks = "outside",
+                      nticks = 4),
+         legend = list(xanchor = "center",
+                       x = 0.82,
+                       y = 0.95),
+         hovermode = "x unified",
+         margin = list(t = 65)) %>% 
+  config(displaylogo = FALSE,
+         modeBarButtonsToRemove = c("zoom", "pan", "select", "lasso"))
+  
+
+```
+
+
+### 2022 Trust breakdown
+
+There was marked variation by NHS organisation with 37% of NHS organisations having less than 70% of patients estimated as receiving triple-diagnostic assessment in a single visit.
+
+```{r trust_chart}
+
+df <- readr::read_csv(here::here("data/NABCOP_audit_data_wide.csv"),
+                      col_types = "ccccccnn",
+                      na = c(""))
+
+chart_title <- "<b>Percentage of women with non-screen detected early invasive breast cancer
+                that received a triple diagnostic assessment in a single visit, 
+                by diagnosing NHS organisation and age at diagnosis</b>"
+
+
+df %>% 
+  filter(diagnosis_year == "2019") %>% 
+  arrange(desc(tda_perc_50_69)) %>% 
+  plot_ly(x = ~reorder(ods_trust_nm, -tda_perc_50_69)) %>% 
+  add_bars(y = ~tda_perc_50_69,
+           name = "50-69yrs",
+           color = I("#228096"),
+           alpha = 0.6) %>%
+  add_lines(y = ~tda_perc_70_plus,
+            name = "70+yrs",
+            color = I("#407291"),
+            marker = list(color = "#00436C",
+                          size = 4)) %>%
+  layout(title = list(text = stringr::str_wrap(chart_title, width = 95),
+                      font = list(size = 12),
+                      x = 0.05,
+                      yanchor = "top"),
+         yaxis = list(title = "Percentage of women (%)",
+                      ticksuffix = "%",
+                      rangemode = "tozero"),
+         xaxis = list(title = list(text = "NHS Organisation",
+                                   font = list(size=12),
+                                   standoff = 10),
+                      showticklabels = FALSE,
+                      ticks = "outside",
+                      nticks = ~length(ods_trust_cd)),
+         legend = list(xanchor = "center",
+                       x = 0.85,
+                       y = 0.9),
+         hovermode = "x unified",
+         margin = list(t = 50)) %>% 
+  config(displaylogo = FALSE,
+         modeBarButtonsToRemove = c("zoom", "pan", "select", "lasso"))
+
+
+```
+
