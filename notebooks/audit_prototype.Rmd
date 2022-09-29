@@ -127,7 +127,7 @@ There was marked variation by NHS organisation with 37% of NHS organisations hav
 
 ```{r trust_chart}
 
-df <- readr::read_csv(here::here("data/NABCOP_audit_data_wide.csv"),
+df <- readr::read_csv(here::here("data/NABCOP_audit_data.csv"),
                       col_types = "ccccccnn",
                       na = c(""))
 

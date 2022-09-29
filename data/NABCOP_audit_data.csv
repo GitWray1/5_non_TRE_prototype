@@ -1,0 +1,240 @@
+﻿audit_year,diagnosis_year,Country,cancer_alliance,ods_trust_cd,ods_trust_nm,tda_perc_50_69,tda_perc_70_plus
+2020,2018,England,Cheshire and Mersyside,RBL,Wirral University Teaching Hospital NHS Foundation Trust,0,0
+2020,2018,England,Cheshire and Mersyside,RBN,St Helens & Knowsley Teaching Hospitals NHS Trust,67,72
+2020,2018,England,Cheshire and Mersyside,RBT,Mid Cheshire Hospitals NHS Foundation Trust,69,75
+2020,2018,England,Cheshire and Mersyside,REM,Liverpool University Hospitals NHS Foundation Trust,71,65
+2020,2018,England,Cheshire and Mersyside,RJN,East Cheshire NHS Trust,96,93
+2020,2018,England,Cheshire and Mersyside,RJR,Countess Of Chester Hospital NHS Foundation Trust,91,78
+2020,2018,England,Cheshire and Mersyside,RWW,Warrington & Halton Hospitals NHS Foundation Trust,77,70
+2020,2018,England,East Midlands,RK5,Sherwood Forest Hospitals NHS Foundation Trust,19,16
+2020,2018,England,East Midlands,RNQ,Kettering General Hospital NHS Foundation Trust,85,97
+2020,2018,England,East Midlands,RNS,Northampton General Hospital NHS Trust,91,94
+2020,2018,England,East Midlands,RTG,University Hospitals Of Derby & Burton NHS Foundation Trust,83,88
+2020,2018,England,East Midlands,RWD,United Lincolnshire Hospitals NHS Trust,90,88
+2020,2018,England,East Midlands,RWE,University Hospitals Of Leicester NHS Trust,2,3
+2020,2018,England,East Midlands,RX1,Nottingham University Hospitals NHS Trust,47,43
+2020,2018,England,East of England,RAJ,Southend University Hospital NHS Foundation Trust,93,92
+2020,2018,England,East of England,RC1,Bedford Hospital NHS Trust,93,98
+2020,2018,England,East of England,RC9,Luton & Dunstable University Hospital NHS Foundation Trust,86,96
+2020,2018,England,East of England,RCX,"The Queen Elizabeth Hospital, Kings Lynn, NHS Foundation Trust",100,98
+2020,2018,England,East of England,RD8,Milton Keynes University Hospital NHS Foundation Trust,92,100
+2020,2018,England,East of England,RDD,Basildon & Thurrock University Hospitals NHS Foundation Trust,93,93
+2020,2018,England,East of England,RDE,East Suffolk & North Essex NHS Foundation Trust,98,96
+2020,2018,England,East of England,RGN,North West Anglia NHS Foundation Trust,86,81
+2020,2018,England,East of England,RGP,James Paget University Hospitals NHS Foundation Trust,94,91
+2020,2018,England,East of England,RGR,West Suffolk NHS Foundation Trust,92,88
+2020,2018,England,East of England,RGT,Cambridge University Hospitals NHS Foundation Trust,81,83
+2020,2018,England,East of England,RM1,Norfolk & Norwich University Hospitals NHS Foundation Trust,90,87
+2020,2018,England,East of England,RQ8,Mid Essex Hospital Services NHS Trust,73,95
+2020,2018,England,East of England,RQW,The Princess Alexandra Hospital NHS Trust,97,91
+2020,2018,England,East of England,RWG,West Hertfordshire Hospitals NHS Trust,97,88
+2020,2018,England,East of England,RWH,East & North Hertfordshire NHS Trust,36,53
+2020,2018,England,Greater Manchester,R0A,Manchester University NHS Foundation Trust,3,6
+2020,2018,England,Greater Manchester,RMC,Bolton NHS Foundation Trust,77,86
+2020,2018,England,Greater Manchester,RMP,Tameside & Glossop Integrated Care NHS Foundation Trust,81,87
+2020,2018,England,Greater Manchester,RRF,"Wrightington, Wigan & Leigh NHS Foundation Trust",50,75
+2020,2018,England,Greater Manchester,RW6,Pennine Acute Hospitals NHS Trust,82,73
+2020,2018,England,Greater Manchester,RWJ,Stockport NHS Foundation Trust,32,29
+2020,2018,England,"Humber, Coast and Vale",RCB,York Teaching Hospital NHS Foundation Trust,76,70
+2020,2018,England,"Humber, Coast and Vale",RJL,Northern Lincolnshire & Goole NHS Foundation Trust,92,100
+2020,2018,England,"Humber, Coast and Vale",RWA,Hull University Teaching Hospitals NHS Trust,85,89
+2020,2018,England,Kent and Medway,RN7,Dartford & Gravesham NHS Trust,53,61
+2020,2018,England,Kent and Medway,RPA,Medway NHS Foundation Trust,46,57
+2020,2018,England,Kent and Medway,RVV,East Kent Hospitals University NHS Foundation Trust,44,42
+2020,2018,England,Kent and Medway,RWF,Maidstone & Tunbridge Wells NHS Trust,7,6
+2020,2018,England,Lancashire and South Cumbria,RTX,University Hospitals Of Morecambe Bay NHS Foundation Trust,91,92
+2020,2018,England,Lancashire and South Cumbria,RXL,Blackpool Teaching Hospitals NHS Foundation Trust,100,88
+2020,2018,England,Lancashire and South Cumbria,RXN,Lancashire Teaching Hospitals NHS Foundation Trust,43,54
+2020,2018,England,Lancashire and South Cumbria,RXR,East Lancashire Hospitals NHS Trust,69,59
+2020,2018,England,North Central and East London,R1H,Barts Health NHS Trust,72,71
+2020,2018,England,North Central and East London,RAL,Royal Free London NHS Foundation Trust,4,3
+2020,2018,England,North Central and East London,RAP,North Middlesex University Hospital NHS Trust,40,41
+2020,2018,England,North Central and East London,RF4,"Barking, Havering & Redbridge University Hospitals NHS Trust",64,68
+2020,2018,England,North Central and East London,RKE,Whittington Health NHS Trust,29,20
+2020,2018,England,North Central and East London,RRV,University College London Hospitals NHS Foundation Trust,5,12
+2020,2018,England,North East and Cumbria,RNN,North Cumbria Integrated Care NHS Ft,0,0
+2020,2018,England,North East and Cumbria,RR7,Gateshead Health NHS Foundation Trust,1,2
+2020,2018,England,North East and Cumbria,RTD,The Newcastle Upon Tyne Hospitals NHS Foundation Trust,86,79
+2020,2018,England,North East and Cumbria,RTF,Northumbria Healthcare NHS Foundation Trust,87,86
+2020,2018,England,North East and Cumbria,RTR,South Tees Hospitals NHS Foundation Trust,100,95
+2020,2018,England,North East and Cumbria,RVW,North Tees & Hartlepool NHS Foundation Trust,78,90
+2020,2018,England,North East and Cumbria,RXP,County Durham & Darlington NHS Foundation Trust,43,47
+2020,2018,England,Peninsula,RA9,Torbay & South Devon NHS Foundation Trust,96,94
+2020,2018,England,Peninsula,RBZ,Northern Devon Healthcare NHS Trust,76,95
+2020,2018,England,Peninsula,REF,Royal Cornwall Hospitals NHS Trust,96,100
+2020,2018,England,Peninsula,RH8,Royal Devon & Exeter NHS Foundation Trust,90,83
+2020,2018,England,Peninsula,RK9,University Hospitals Plymouth NHS Trust,94,96
+2020,2018,England,"Somerset, Wiltshire, Avon & Gloucestershire",RBA,Taunton & Somerset NHS Foundation Trust,94,92
+2020,2018,England,"Somerset, Wiltshire, Avon & Gloucestershire",RD1,Royal United Hospitals Bath NHS Foundation Trust,88,77
+2020,2018,England,"Somerset, Wiltshire, Avon & Gloucestershire",RNZ,Salisbury NHS Foundation Trust,92,98
+2020,2018,England,"Somerset, Wiltshire, Avon & Gloucestershire",RTE,Gloucestershire Hospitals NHS Foundation Trust,91,89
+2020,2018,England,"Somerset, Wiltshire, Avon & Gloucestershire",RVJ,North Bristol NHS Trust,67,80
+2020,2018,England,South East London,RJ1,Guys & St Thomas NHS Foundation Trust,57,64
+2020,2018,England,South East London,RJ2,Lewisham & Greenwich NHS Trust,48,30
+2020,2018,England,South East London,RJZ,Kings College Hospital NHS Foundation Trust,15,24
+2020,2018,England,"South Yorkshire, Bassetlaw, North Derbyshire and Hardwick",RFF,Barnsley Hospital NHS Foundation Trust,88,87
+2020,2018,England,"South Yorkshire, Bassetlaw, North Derbyshire and Hardwick",RFR,The Rotherham NHS Foundation Trust,73,72
+2020,2018,England,"South Yorkshire, Bassetlaw, North Derbyshire and Hardwick",RFS,Chesterfield Royal Hospital NHS Foundation Trust,100,100
+2020,2018,England,"South Yorkshire, Bassetlaw, North Derbyshire and Hardwick",RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,93,95
+2020,2018,England,"South Yorkshire, Bassetlaw, North Derbyshire and Hardwick",RP5,Doncaster & Bassetlaw Teaching Hospitals NHS Foundation Trust,90,83
+2020,2018,England,Surrey and Sussex,RA2,Royal Surrey County Hospital NHS Foundation Trust,75,76
+2020,2018,England,Surrey and Sussex,RDU,Frimley Health NHS Foundation Trust,87,90
+2020,2018,England,Surrey and Sussex,RTK,Ashford & St Peters Hospitals NHS Foundation Trust,73,70
+2020,2018,England,Surrey and Sussex,RTP,Surrey & Sussex Healthcare NHS Trust,73,63
+2020,2018,England,Surrey and Sussex,RXC,East Sussex Healthcare NHS Trust,4,12
+2020,2018,England,Surrey and Sussex,RXH,Brighton & Sussex University Hospitals NHS Trust,12,9
+2020,2018,England,Surrey and Sussex,RYR,Western Sussex Hospitals NHS Foundation Trust,75,74
+2020,2018,England,Thames Valley,RHW,Royal Berkshire NHS Foundation Trust,96,94
+2020,2018,England,Thames Valley,RN3,Great Western Hospitals NHS Foundation Trust,84,93
+2020,2018,England,Thames Valley,RTH,Oxford University Hospitals NHS Foundation Trust,84,78
+2020,2018,England,Thames Valley,RXQ,Buckinghamshire Healthcare NHS Trust,88,83
+2020,2018,England,Wessex,R1F,Isle Of Wight NHS Trust,91,83
+2020,2018,England,Wessex,RBD,Dorset County Hospital NHS Foundation Trust,88,96
+2020,2018,England,Wessex,RD3,Poole Hospital NHS Foundation Trust,76,81
+2020,2018,England,Wessex,RDZ,The Royal Bournemouth & Christchurch Hospitals NHS Foundation Trust,86,95
+2020,2018,England,Wessex,RHM,University Hospital Southampton NHS Foundation Trust,91,93
+2020,2018,England,Wessex,RHU,Portsmouth Hospitals NHS Trust,82,78
+2020,2018,England,Wessex,RN5,Hampshire Hospitals NHS Foundation Trust,87,89
+2020,2018,England,West London,R1K,London North West Healthcare NHS Trust,5,3
+2020,2018,England,West London,RAS,The Hillingdon Hospitals NHS Foundation Trust,57,69
+2020,2018,England,West London,RAX,Kingston Hospital NHS Foundation Trust,3,7
+2020,2018,England,West London,RJ6,Croydon Health Services NHS Trust,3,5
+2020,2018,England,West London,RJ7,St Georges University Hospitals NHS Foundation Trust,40,38
+2020,2018,England,West London,RPY,The Royal Marsden NHS Foundation Trust,43,66
+2020,2018,England,West London,RQM,Chelsea & Westminster Hospital NHS Foundation Trust,18,16
+2020,2018,England,West London,RYJ,Imperial College Healthcare NHS Trust,3,12
+2020,2018,England,West Midlands,RBK,Walsall Healthcare NHS Trust,88,85
+2020,2018,England,West Midlands,RJC,South Warwickshire NHS Foundation Trust,95,93
+2020,2018,England,West Midlands,RJE,University Hospitals Of North Midlands NHS Trust,96,81
+2020,2018,England,West Midlands,RKB,University Hospitals Coventry & Warwickshire NHS Trust,92,79
+2020,2018,England,West Midlands,RL4,The Royal Wolverhampton NHS Trust,91,93
+2020,2018,England,West Midlands,RLQ,Wye Valley NHS Trust,74,70
+2020,2018,England,West Midlands,RLT,George Eliot Hospital NHS Trust,67,71
+2020,2018,England,West Midlands,RNA,The Dudley Group NHS Foundation Trust,98,97
+2020,2018,England,West Midlands,RRK,University Hospitals Birmingham NHS Foundation Trust,91,86
+2020,2018,England,West Midlands,RWP,Worcestershire Acute Hospitals NHS Trust,74,79
+2020,2018,England,West Midlands,RXK,Sandwell & West Birmingham Hospitals NHS Trust,84,77
+2020,2018,England,West Midlands,RXW,Shrewsbury & Telford Hospital NHS Trust,94,90
+2020,2018,England,West Yorkshire,RAE,Bradford Teaching Hospitals NHS Foundation Trust,6,0
+2020,2018,England,West Yorkshire,RCD,Harrogate & District NHS Foundation Trust,82,69
+2020,2018,England,West Yorkshire,RCF,Airedale NHS Foundation Trust,36,62
+2020,2018,England,West Yorkshire,RR8,Leeds Teaching Hospitals NHS Trust,29,31
+2020,2018,England,West Yorkshire,RWY,Calderdale & Huddersfield NHS Foundation Trust,23,24
+2020,2018,England,West Yorkshire,RXF,Mid Yorkshire Hospitals NHS Trust,82,84
+2022,2019,England,Cheshire and Merseyside,RBL,Wirral University Teaching Hospital NHS Foundation Trust,4,0
+2022,2019,England,Cheshire and Merseyside,RBN,St Helens and Knowsley Teaching Hospitals NHS Trust,62,67
+2022,2019,England,Cheshire and Merseyside,RBT,Mid Cheshire Hospitals NHS Foundation Trust,70,78
+2022,2019,England,Cheshire and Merseyside,REM,Liverpool University Hospitals NHS Foundation Trust,51,47
+2022,2019,England,Cheshire and Merseyside,RJN,East Cheshire NHS Trust,79,88
+2022,2019,England,Cheshire and Merseyside,RJR,Countess Of Chester Hospital NHS Foundation Trust,78,80
+2022,2019,England,Cheshire and Merseyside,RWW,Warrington and Halton Teaching Hospitals NHS Foundation Trust,57,63
+2022,2019,England,East Midlands,RFS,Chesterfield Royal Hospital NHS Foundation Trust,100,100
+2022,2019,England,East Midlands,RK5,Sherwood Forest Hospitals NHS Foundation Trust,19,53
+2022,2019,England,East Midlands,RNQ,Kettering General Hospital NHS Foundation Trust,93,94
+2022,2019,England,East Midlands,RNS,Northampton General Hospital NHS Trust,83,89
+2022,2019,England,East Midlands,RTG,University Hospitals Of Derby and Burton NHS Foundation Trust,87,94
+2022,2019,England,East Midlands,RWD,United Lincolnshire Hospitals NHS Trust,91,93
+2022,2019,England,East Midlands,RWE,University Hospitals Of Leicester NHS Trust,7,4
+2022,2019,England,East Midlands,RX1,Nottingham University Hospitals NHS Trust,75,64
+2022,2019,England,East of England - North,RCX,"The Queen Elizabeth Hospital, Kings Lynn, NHS Foundation Trust",100,92
+2022,2019,England,East of England - North,RDE,East Suffolk and North Essex NHS Foundation Trust,93,96
+2022,2019,England,East of England - North,RGN,North West Anglia NHS Foundation Trust,87,94
+2022,2019,England,East of England - North,RGP,James Paget University Hospitals NHS Foundation Trust,93,96
+2022,2019,England,East of England - North,RGR,West Suffolk NHS Foundation Trust,81,81
+2022,2019,England,East of England - North,RGT,Cambridge University Hospitals NHS Foundation Trust,86,92
+2022,2019,England,East of England - North,RM1,Norfolk and Norwich University Hospitals NHS Foundation Trust,84,82
+2022,2019,England,East of England - South,RAJ,Mid and South Essex NHS Foundation Trust,86,87
+2022,2019,England,East of England - South,RC9,Bedfordshire Hospitals NHS Foundation Trust,97,93
+2022,2019,England,East of England - South,RD8,Milton Keynes University Hospital NHS Foundation Trust,94,95
+2022,2019,England,East of England - South,RQW,The Princess Alexandra Hospital NHS Trust,85,91
+2022,2019,England,East of England - South,RWG,West Hertfordshire Hospitals NHS Trust,87,82
+2022,2019,England,East of England - South,RWH,East and North Hertfordshire NHS Trust,21,29
+2022,2019,England,Greater Manchester,R0A,Manchester University NHS Foundation Trust,0,1
+2022,2019,England,Greater Manchester,RMC,Bolton NHS Foundation Trust,73,86
+2022,2019,England,Greater Manchester,RMP,Tameside and Glossop Integrated Care NHS Foundation Trust,93,93
+2022,2019,England,Greater Manchester,RRF,"Wrightington, Wigan and Leigh NHS Foundation Trust",58,71
+2022,2019,England,Greater Manchester,RW6,Pennine Acute Hospitals NHS Trust,87,87
+2022,2019,England,Greater Manchester,RWJ,Stockport NHS Foundation Trust,0,0
+2022,2019,England,"Humber, Coast and Vale",RCB,York Teaching Hospital NHS Foundation Trust,86,76
+2022,2019,England,"Humber, Coast and Vale",RCD,Harrogate and District NHS Foundation Trust,100,92
+2022,2019,England,"Humber, Coast and Vale",RJL,Northern Lincolnshire and Goole NHS Foundation Trust,98,100
+2022,2019,England,"Humber, Coast and Vale",RWA,Hull University Teaching Hospitals NHS Trust,85,88
+2022,2019,England,Kent and Medway,RN7,Dartford and Gravesham NHS Trust,44,56
+2022,2019,England,Kent and Medway,RPA,Medway NHS Foundation Trust,74,79
+2022,2019,England,Kent and Medway,RVV,East Kent Hospitals University NHS Foundation Trust,62,59
+2022,2019,England,Kent and Medway,RWF,Maidstone and Tunbridge Wells NHS Trust,1,0
+2022,2019,England,Lancashire and South Cumbria,RTX,University Hospitals Of Morecambe Bay NHS Foundation Trust,92,91
+2022,2019,England,Lancashire and South Cumbria,RXL,Blackpool Teaching Hospitals NHS Foundation Trust,90,90
+2022,2019,England,Lancashire and South Cumbria,RXN,Lancashire Teaching Hospitals NHS Foundation Trust,93,98
+2022,2019,England,Lancashire and South Cumbria,RXR,East Lancashire Hospitals NHS Trust,65,68
+2022,2019,England,North Central London,RAL,Royal Free London NHS Foundation Trust,0,0
+2022,2019,England,North Central London,RAP,North Middlesex University Hospital NHS Trust,,15
+2022,2019,England,North Central London,RKE,Whittington Health NHS Trust,71,81
+2022,2019,England,North Central London,RRV,University College London Hospitals NHS Foundation Trust,0,
+2022,2019,England,North East London,R1H,Barts Health NHS Trust,83,84
+2022,2019,England,North East London,RF4,"Barking, Havering and Redbridge University Hospitals NHS Trust",4,5
+2022,2019,England,North West and South West London,R1K,London North West University Healthcare NHS Trust,0,0
+2022,2019,England,North West and South West London,RAS,The Hillingdon Hospitals NHS Foundation Trust,63,62
+2022,2019,England,North West and South West London,RAX,Kingston Hospital NHS Foundation Trust,0,0
+2022,2019,England,North West and South West London,RJ6,Croydon Health Services NHS Trust,26,37
+2022,2019,England,North West and South West London,RJ7,St Georges University Hospitals NHS Foundation Trust,56,41
+2022,2019,England,North West and South West London,RPY,The Royal Marsden NHS Foundation Trust,18,12
+2022,2019,England,North West and South West London,RQM,Chelsea and Westminster Hospital NHS Foundation Trust,15,33
+2022,2019,England,North West and South West London,RYJ,Imperial College Healthcare NHS Trust,69,71
+2022,2019,England,Northern,RNN,North Cumbria Integrated Care NHS Foundation Trust,0,0
+2022,2019,England,Northern,RR7,Gateshead Health NHS Foundation Trust,0,1
+2022,2019,England,Northern,RTD,The Newcastle Upon Tyne Hospitals NHS Foundation Trust,84,85
+2022,2019,England,Northern,RTF,Northumbria Healthcare NHS Foundation Trust,70,58
+2022,2019,England,Northern,RTR,South Tees Hospitals NHS Foundation Trust,94,91
+2022,2019,England,Northern,RVW,North Tees and Hartlepool NHS Foundation Trust,95,98
+2022,2019,England,Northern,RXP,County Durham and Darlington NHS Foundation Trust,61,61
+2022,2019,England,Peninsula,RA9,Torbay and South Devon NHS Foundation Trust,92,91
+2022,2019,England,Peninsula,RBZ,Northern Devon Healthcare NHS Trust,86,96
+2022,2019,England,Peninsula,REF,Royal Cornwall Hospitals NHS Trust,12,19
+2022,2019,England,Peninsula,RH8,Royal Devon and Exeter NHS Foundation Trust,91,92
+2022,2019,England,Peninsula,RK9,University Hospitals Plymouth NHS Trust,95,91
+2022,2019,England,"Somerset, Wiltshire, Avon and Gloucestershire",RD1,Royal United Hospitals Bath NHS Foundation Trust,67,89
+2022,2019,England,"Somerset, Wiltshire, Avon and Gloucestershire",RH5,Somerset NHS Foundation Trust,98,92
+2022,2019,England,"Somerset, Wiltshire, Avon and Gloucestershire",RN3,Great Western Hospitals NHS Foundation Trust,89,97
+2022,2019,England,"Somerset, Wiltshire, Avon and Gloucestershire",RNZ,Salisbury NHS Foundation Trust,96,98
+2022,2019,England,"Somerset, Wiltshire, Avon and Gloucestershire",RTE,Gloucestershire Hospitals NHS Foundation Trust,94,97
+2022,2019,England,"Somerset, Wiltshire, Avon and Gloucestershire",RVJ,North Bristol NHS Trust,76,75
+2022,2019,England,South East London,RJ1,Guys and St Thomas NHS Foundation Trust,61,55
+2022,2019,England,South East London,RJ2,Lewisham and Greenwich NHS Trust,9,15
+2022,2019,England,South East London,RJZ,Kings College Hospital NHS Foundation Trust,52,41
+2022,2019,England,South Yorkshire and Bassetlaw,RFF,Barnsley Hospital NHS Foundation Trust,100,86
+2022,2019,England,South Yorkshire and Bassetlaw,RFR,The Rotherham NHS Foundation Trust,67,70
+2022,2019,England,South Yorkshire and Bassetlaw,RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,93,99
+2022,2019,England,South Yorkshire and Bassetlaw,RP5,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,97,94
+2022,2019,England,Surrey and Sussex,RA2,Royal Surrey County Hospital NHS Foundation Trust,89,87
+2022,2019,England,Surrey and Sussex,RDU,Frimley Health NHS Foundation Trust,81,93
+2022,2019,England,Surrey and Sussex,RTK,Ashford and St Peters Hospitals NHS Foundation Trust,43,68
+2022,2019,England,Surrey and Sussex,RTP,Surrey and Sussex Healthcare NHS Trust,79,83
+2022,2019,England,Surrey and Sussex,RXC,East Sussex Healthcare NHS Trust,23,22
+2022,2019,England,Surrey and Sussex,RYR,Western Sussex Hospitals NHS Foundation Trust,54,58
+2022,2019,England,Thames Valley,RHW,Royal Berkshire NHS Foundation Trust,87,92
+2022,2019,England,Thames Valley,RTH,Oxford University Hospitals NHS Foundation Trust,79,77
+2022,2019,England,Thames Valley,RXQ,Buckinghamshire Healthcare NHS Trust,87,90
+2022,2019,England,Wessex,R0D,University Hospitals Dorset NHS Foundation Trust,82,91
+2022,2019,England,Wessex,R1F,Isle Of Wight NHS Trust,47,58
+2022,2019,England,Wessex,RBD,Dorset County Hospital NHS Foundation Trust,96,85
+2022,2019,England,Wessex,RHM,University Hospital Southampton NHS Foundation Trust,88,98
+2022,2019,England,Wessex,RHU,Portsmouth Hospitals University NHS Trust,79,84
+2022,2019,England,Wessex,RN5,Hampshire Hospitals NHS Foundation Trust,85,91
+2022,2019,England,West Midlands,RBK,Walsall Healthcare NHS Trust,46,39
+2022,2019,England,West Midlands,RJC,South Warwickshire NHS Foundation Trust,92,94
+2022,2019,England,West Midlands,RJE,University Hospitals Of North Midlands NHS Trust,87,79
+2022,2019,England,West Midlands,RKB,University Hospitals Coventry and Warwickshire NHS Trust,82,59
+2022,2019,England,West Midlands,RL4,The Royal Wolverhampton NHS Trust,86,87
+2022,2019,England,West Midlands,RLQ,Wye Valley NHS Trust,80,76
+2022,2019,England,West Midlands,RLT,George Eliot Hospital NHS Trust,84,93
+2022,2019,England,West Midlands,RNA,The Dudley Group NHS Foundation Trust,98,100
+2022,2019,England,West Midlands,RRK,University Hospitals Birmingham NHS Foundation Trust,84,76
+2022,2019,England,West Midlands,RWP,Worcestershire Acute Hospitals NHS Trust,76,85
+2022,2019,England,West Midlands,RXK,Sandwell and West Birmingham Hospitals NHS Trust,96,87
+2022,2019,England,West Midlands,RXW,The Shrewsbury and Telford Hospital NHS Trust,93,96
+2022,2019,England,West Yorkshire and Harrogate,RAE,Bradford Teaching Hospitals NHS Foundation Trust,0,0
+2022,2019,England,West Yorkshire and Harrogate,RCF,Airedale NHS Foundation Trust,57,40
+2022,2019,England,West Yorkshire and Harrogate,RR8,Leeds Teaching Hospitals NHS Trust,23,22
+2022,2019,England,West Yorkshire and Harrogate,RWY,Calderdale and Huddersfield NHS Foundation Trust,2,1
+2022,2019,England,West Yorkshire and Harrogate,RXF,Mid Yorkshire Hospitals NHS Trust,85,88
