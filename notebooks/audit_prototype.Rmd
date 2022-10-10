@@ -1,7 +1,7 @@
 ---
-title: "Breast cancer - Triple diagnostic assessment"
-author: "Automation prototype"
-date: "20/09/2022"
+title: "Prototype measurement framework: Triple diagnostic assessment in a single hospital visit for suspected breast cancer"
+author: "Impact team"
+date: "10 Oct 2022"
 output: 
   html_document:
     code_folding: hide
@@ -10,11 +10,11 @@ output:
     toc_float: true
 ---
 
-```{r rmd-setup, include=FALSE}
+```{r TDA-rmd-setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
-```{r setup, include = FALSE}
+```{r TDA_setup, include = FALSE}
 
 # Load relevant packages
 library(dplyr)
@@ -23,7 +23,13 @@ library(plotly)
 
 ```
 
-## Background
+## Relevant guidance
+
+The QS12 NICE quality standard on [Breast cancer](https://www.nice.org.uk/guidance/qs12) covers the care of people with breast cancer after they have been referred to a specialist team. The specific statement that we will measure here is:
+
+> Statement 1 - People with suspected breast cancer referred to specialist services are offered the triple diagnostic assessment in a single hospital visit.
+
+## Context
 
 Early diagnosis of breast cancer allows for prompt treatment, which results in better health outcomes for people with breast cancer. Giving people with suspected breast cancer the triple diagnostic assessment at a single hospital visit will help to ensure rapid diagnosis. It will also help to reduce the anxiety and stress associated with multiple visits for different parts of the triple diagnostic assessment.
 
@@ -31,51 +37,49 @@ A triple diagnostic assessment comprises of the following three elements conduct
 
 - Clinical assessment
 - Imaging - A mammogram and/or an ultrasound scan
-- Biopsy - a tissue biopsy taken from the breast for histological examination by fine-needle aspiration or core biopsy 
+- Biopsy - a tissue biopsy taken from the breast for histological examination by fine-needle aspiration or core biopsy.
 
-Within this measurement framework prototype we will use data from the [National audit of breast cancer in older patients](https://www.nabcop.org.uk/reports/?filter_date=2022) (NABCOP) to assess uptake of a single quality statement reccomending triple diagnostic assessment. We will use this data to assess changes in uptake over time, as well as geographical variation in uptake.
+The specific research question addressed in this prototype is as follows:
 
-## What was measured
+> What proportion of people diagnosed with breast cancer received a triple diagnostic assessment in a single hospital visit?
 
-**Relevant quality statement**  
-QS12 Statement 1 - People with suspected breast cancer referred to specialist services are offered the triple diagnostic assessment in a single hospital visit.
-
-**Research question** 
-What proportion of people diagnosed with breast cancer recieved a triple-diagnostic assessment in a single hospital visit?
+To answer this question, we will use data from the [National audit of breast cancer in older patients](https://www.nabcop.org.uk/reports/?filter_date=2022) (NABCOP) to assess uptake of triple diagnostic assessment. We will use this data to assess changes in uptake over time, as well as geographical variation in uptake.
 
 ## Methods
 
-**What is being measured?**  
+### What is being measured? 
 The proportion of patients who received a triple diagnostic assessment within a single visit.
 
 To determine whether a triple diagnostic assessment was received in a single visit, the following conditions have to be met:
 
 - patient has a reported date of biopsy or cytology
 - patient has a matching date of mammogram
-- OR patient has no date for mammogram, but has a matching first seen date reported
+- OR patient has no date for mammogram, but has a matching first seen date reported.
+
+The numerator and denominator are as follows:
 
 **Numerator**: Women receiving triple diagnostic assessment in a single visit.  
 **Denominator**: Women with non-screen detected early invasive breast cancer. 
 
-**Exclusions**  
+### Exclusions and caveats 
 Women who were diagnosed with early invasive breast cancer during routine breast screening were excluded. This is because of established screening protocols where those with mammographic abnormalities are recalled for assessment and further imaging/biopsies, and thus would not have all tests done in the same visit. 
 
-All men were excluded from analyses due to the low incidence making analyses infeasable 
+All men were excluded from analyses due to the low incidence making analyses infeasible.
 
-**Data Source**  
-[National audit of breast cancer in older patients](https://www.nabcop.org.uk/reports/?filter_date=2022) (NABCOP). This audit uses data that has been provided by patients and collected by the NHS as part of their care and support. The data are collated, maintained and quality assured by the National Disease Registration Service (NDRS), which is part of NHS Digital (NHSD).
+### Data source
+[National Audit of Breast Cancer in Older Patients](https://www.nabcop.org.uk/reports/?filter_date=2022) (NABCOP). This audit uses data that has been provided by patients and collected by the NHS as part of their care and support. The data are collated, maintained and quality assured by the National Disease Registration Service (NDRS), which is part of NHS Digital (NHSD).
 
-Data on triple diagnostic assessment is derived from the Cancer Outcomes and Services Dataset (COSD), a monthly data collection from service providers where items are submitted to the National Cancer Data Repository (NCDR) via multidisciplinary team electronic data collection systems.
+Data on triple-diagnostic assessment is derived from the Cancer Outcomes and Services Dataset (COSD), a monthly data collection from service providers where items are submitted to the National Cancer Data Repository (NCDR) via multidisciplinary team electronic data collection systems.
 
 Please refer to the [NABCOP Annual Report Methodology 2022](https://www.nabcop.org.uk/resources/nabcop-2022-annual-report-supplementary-materials/) for full details of how data was collected and processed. 
 
 ## Results
 
-### National level
+### National rate of triple diagnostic assessment
 
 Among women aged 50 years and over diagnosed with non-screen detected EIBC in 2019, 69% were calculated to have received triple diagnostic assessment (TDA) in a single visit. There was little variation from previous audit years, and between age groups.
 
-```{r national}
+```{r TDA-national}
 
 df_nat <- readr::read_csv(here::here("data/NABCOP_audit_data_national.csv"),
                           col_types = "ccnn") %>%
@@ -121,11 +125,11 @@ df_nat %>%
          modeBarButtonsToRemove = c("zoom", "pan", "select", "lasso"))
 ```
 
-### 2022 Trust breakdown
+### Variation in uptake by trust, 2022
 
 There was marked variation by NHS organisation with 37% of NHS organisations having less than 70% of patients estimated as receiving triple-diagnostic assessment in a single visit.
 
-```{r trust_chart}
+```{r TDA-trust_chart}
 
 df <- readr::read_csv(here::here("data/NABCOP_audit_data.csv"),
                       col_types = "ccccccnn",
@@ -170,7 +174,6 @@ df %>%
   config(displaylogo = FALSE,
          modeBarButtonsToRemove = c("zoom", "pan", "select", "lasso"))
 ```
-
 
 ## References
 
